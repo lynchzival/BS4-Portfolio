@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* FOR DEBUG */
+
+/* *{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+} */
+
+/* FOR DEBUG */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 50px;
+}
+
+section{
+    padding: 6.5em 1em;
+}
+
+.image{
+    filter: grayscale(1);
+}
+
+/* Change Bootstrap Defualt Style */
+
+a {
+    text-decoration: none !important;
+}
+
+.btn-group > button{
+    margin: 0 !important;
+}
+
+/* Menu */
+
+ul.navbar-nav li > a{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000 !important;
+}
+
+a.navbar-brand{
+    font-weight: bold;
+}
+
+/* Restyle Social Buttons */
+
+.social > button > i.fab{
+    color: rgb(255, 255, 255, 0.75);
+    transition: all 0.2s ease;
+}
+
+.social > button:hover > i.fab{
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.social > button:first-child{
+    background: #3b5998;
+}
+
+.social > button:nth-child(2){
+    background: #00acee;
+}
+
+.social > button:nth-child(3){
+    background: #833ab4;
+}
+
+/* Carousel Section */
+
+.carousel-item .container .row [class^="col-"]{
+    margin: 5px 0;
+}
+
+/* Experience & Education Section */
+
+.education p,
+.experience p{
+    font-weight: bold;
+    line-height: 1.6em;
+}
+.education p > i,
+.experience p > i{
+    font-weight: normal;
+}
+
+.experience p{
+    margin-bottom: 3px;
+}
+
+.experience ul{
+    padding: 0;
+    list-style-position: inside;
+}
+
+/* Podcast */
+
+.card-title{
+    font-weight: bold;
+}
+
+/* Contact Section */
+
+.contact iframe{
+    display: block;
+    width: 100%;
+}
+
+/* Extra Style */
+
+.wallpaper{
+    background: url("https://w.wallhaven.cc/full/wy/wallhaven-wyyxy6.png") no-repeat;
+    color: #ecf0f1;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) { 
+
+
+
+}
